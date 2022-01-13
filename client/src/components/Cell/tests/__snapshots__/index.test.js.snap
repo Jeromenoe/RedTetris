@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Cell Component Check valids parameters 1`] = `
+<div
+  className="sc-bdnxRM dCXbye"
+  color="76448a"
+  type="T"
+/>
+`;
+
+exports[`Testing Cell Component Check with spectrum type 1`] = `
+<div
+  className="sc-bdnxRM dIXOCh"
+  color="148f77"
+  type="spectrum"
+/>
+`;

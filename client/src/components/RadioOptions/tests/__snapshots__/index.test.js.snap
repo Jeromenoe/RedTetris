@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing RadioOptions Component Test rendering ok 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <RadioOptions
+    settingId={1}
+  >
+    <div
+      className="radio-group"
+    >
+      <input
+        checked={false}
+        id="opt-1"
+        name="selector-1"
+        onChange={[Function]}
+        type="radio"
+      />
+      <label
+        htmlFor="opt-1"
+      >
+        EASY
+      </label>
+      <input
+        checked={true}
+        id="opt-2"
+        name="selector-1"
+        onChange={[Function]}
+        type="radio"
+      />
+      <label
+        htmlFor="opt-2"
+      >
+        MEDIUM
+      </label>
+      <input
+        checked={false}
+        id="opt-3"
+        name="selector-1"
+        onChange={[Function]}
+        type="radio"
+      />
+      <label
+        htmlFor="opt-3"
+      >
+        HARD
+      </label>
+      <input
+        checked={false}
+        id="opt-4"
+        name="selector-1"
+        onChange={[Function]}
+        type="radio"
+      />
+      <label
+        htmlFor="opt-4"
+      >
+        LEVEL
+      </label>
+    </div>
+  </RadioOptions>
+</Provider>
+`;

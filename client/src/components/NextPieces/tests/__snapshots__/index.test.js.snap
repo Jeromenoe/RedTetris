@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing NextPieces Component Next tetrominos 1`] = `
+<div>
+  <div
+    className="sc-bdnxRM GaUJx"
+  >
+    <h1
+      className="sc-hKFxyN kPweBh"
+    >
+      NEXT
+    </h1>
+    <div
+      className="sc-gtsrHT kszIYe"
+    >
+      <div
+        className="sc-dlnjwi kooEPI"
+        height={1}
+        width={4}
+      >
+        <div
+          className="sc-eCApnc jJgApf"
+          color="08a9a9"
+          type="I"
+        />
+        <div
+          className="sc-eCApnc jJgApf"
+          color="08a9a9"
+          type="I"
+        />
+        <div
+          className="sc-eCApnc jJgApf"
+          color="08a9a9"
+          type="I"
+        />
+        <div
+          className="sc-eCApnc jJgApf"
+          color="08a9a9"
+          type="I"
+        />
+      </div>
+    </div>
+    <div
+      className="sc-gtsrHT kszIYe"
+    >
+      <div
+        className="sc-dlnjwi jXvXiL"
+        height={2}
+        width={4}
+      >
+        <div
+          className="sc-eCApnc kcZqRV"
+          color="2471a3"
+          type="J"
+        />
+        <div
+          className="sc-eCApnc UOHvZ"
+          color="e5e7e9"
+          type="nextTetro"
+        />
+        <div
+          className="sc-eCApnc UOHvZ"
+          color="e5e7e9"
+          type="nextTetro"
+        />
+        <div
+          className="sc-eCApnc UOHvZ"
+          color="e5e7e9"
+          type="nextTetro"
+        />
+        <div
+          className="sc-eCApnc kcZqRV"
+          color="2471a3"
+          type="J"
+        />
+        <div
+          className="sc-eCApnc kcZqRV"
+          color="2471a3"
+          type="J"
+        />
+        <div
+          className="sc-eCApnc kcZqRV"
+          color="2471a3"
+          type="J"
+        />
+        <div
+          className="sc-eCApnc UOHvZ"
+          color="e5e7e9"
+          type="nextTetro"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

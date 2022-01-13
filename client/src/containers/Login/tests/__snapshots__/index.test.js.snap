@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Login Container Check good url 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Login>
+    <styled.div>
+      <div
+        className="sc-gtsrHT bpUZGv"
+      >
+        <h1
+          className="redTetrisTitle"
+        >
+          Red Tetris
+        </h1>
+        <styled.div>
+          <div
+            className="sc-bdnxRM gcfnXe"
+          >
+            <input
+              className="userInfosTextField"
+              id="playerNameId"
+              placeholder="User Name"
+              type="text"
+            />
+          </div>
+        </styled.div>
+        <styled.div>
+          <div
+            className="sc-bdnxRM gcfnXe"
+          >
+            <input
+              className="userInfosTextField"
+              id="gameNameId"
+              placeholder="Game Name"
+              type="text"
+            />
+          </div>
+        </styled.div>
+        <button
+          className="PlayButton"
+          onClick={[Function]}
+        >
+          PLAY
+        </button>
+      </div>
+    </styled.div>
+  </Login>
+</Provider>
+`;
+
+exports[`Testing Login Container Check render 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Login>
+    <styled.div>
+      <div
+        className="sc-gtsrHT bpUZGv"
+      >
+        <h1
+          className="redTetrisTitle"
+        >
+          Red Tetris
+        </h1>
+        <styled.div>
+          <div
+            className="sc-bdnxRM gcfnXe"
+          >
+            <input
+              className="userInfosTextField"
+              id="playerNameId"
+              placeholder="User Name"
+              type="text"
+            />
+          </div>
+        </styled.div>
+        <styled.div>
+          <div
+            className="sc-bdnxRM gcfnXe"
+          >
+            <input
+              className="userInfosTextField"
+              id="gameNameId"
+              placeholder="Game Name"
+              type="text"
+            />
+          </div>
+        </styled.div>
+        <button
+          className="PlayButton"
+          onClick={[Function]}
+        >
+          PLAY
+        </button>
+      </div>
+    </styled.div>
+  </Login>
+</Provider>
+`;

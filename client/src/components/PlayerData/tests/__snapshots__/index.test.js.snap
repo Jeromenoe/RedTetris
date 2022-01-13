@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing PlayerData Component Test with basic values 1`] = `
+<div
+  style={
+    Object {
+      "alignSelf": "flex-end",
+      "marginBottom": "6px",
+      "marginRight": "6px",
+      "width": "70px",
+    }
+  }
+>
+  <div
+    className="sc-bdnxRM koyVdG"
+  >
+    <div
+      style={
+        Object {
+          "marginBottom": "15px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "marginBottom": "6px",
+          }
+        }
+      >
+        Level
+      </div>
+      <span
+        style={
+          Object {
+            "paddingRight": "6px",
+          }
+        }
+      >
+        5
+      </span>
+    </div>
+    <div
+      style={
+        Object {
+          "marginBottom": "15px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "marginBottom": "6px",
+          }
+        }
+      >
+        Score
+      </div>
+      <span
+        style={
+          Object {
+            "paddingRight": "6px",
+          }
+        }
+      >
+        1000
+      </span>
+    </div>
+    <div
+      style={
+        Object {
+          "marginBottom": "20px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "marginBottom": "6px",
+          }
+        }
+      >
+        Lines
+      </div>
+      <span
+        style={
+          Object {
+            "paddingRight": "6px",
+          }
+        }
+      >
+        10
+      </span>
+    </div>
+  </div>
+</div>
+`;

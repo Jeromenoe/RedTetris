@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Stage Component Test with styledTetrisWrapper div 1`] = `
+<div
+  className="sc-gtsrHT dSQuVR"
+  height={4}
+  width={4}
+>
+  <div
+    className="sc-bdnxRM cFlnuR"
+    color="ecf0f1"
+    type={0}
+  />
+  <div
+    className="sc-bdnxRM cFlnuR"
+    color="ecf0f1"
+    type={0}
+  />
+  <div
+    className="sc-bdnxRM eJWXiu"
+    color="08a9a9"
+    type="I"
+  />
+  <div
+    className="sc-bdnxRM ffkpFI"
+    color="2471a3"
+    type="J"
+  />
+  <div
+    className="sc-bdnxRM cFlnuR"
+    color="ecf0f1"
+    type={0}
+  />
+  <div
+    className="sc-bdnxRM cFlnuR"
+    color="ecf0f1"
+    type={0}
+  />
+  <div
+    className="sc-bdnxRM eJWXiu"
+    color="08a9a9"
+    type="I"
+  />
+  <div
+    className="sc-bdnxRM ffkpFI"
+    color="2471a3"
+    type="J"
+  />
+  <div
+    className="sc-bdnxRM cFlnuR"
+    color="ecf0f1"
+    type={0}
+  />
+  <div
+    className="sc-bdnxRM cFlnuR"
+    color="ecf0f1"
+    type={0}
+  />
+  <div
+    className="sc-bdnxRM eJWXiu"
+    color="08a9a9"
+    type="I"
+  />
+  <div
+    className="sc-bdnxRM ffkpFI"
+    color="2471a3"
+    type="J"
+  />
+  <div
+    className="sc-bdnxRM cFlnuR"
+    color="ecf0f1"
+    type={0}
+  />
+  <div
+    className="sc-bdnxRM cFlnuR"
+    color="ecf0f1"
+    type={0}
+  />
+  <div
+    className="sc-bdnxRM eJWXiu"
+    color="08a9a9"
+    type="I"
+  />
+  <div
+    className="sc-bdnxRM ffkpFI"
+    color="2471a3"
+    type="J"
+  />
+</div>
+`;
+
+exports[`Testing Stage Component Test without styledTetrisWrapper div 1`] = `
+<div
+  className="sc-gtsrHT dSQuVR"
+  height={4}
+  width={4}
+>
+  <div
+    className="sc-bdnxRM cFlnuR"
+    color="ecf0f1"
+    type={0}
+  />
+  <div
+    className="sc-bdnxRM cFlnuR"
+    color="ecf0f1"
+    type={0}
+  />
+  <div
+    className="sc-bdnxRM eJWXiu"
+    color="08a9a9"
+    type="I"
+  />
+  <div
+    className="sc-bdnxRM ffkpFI"
+    color="2471a3"
+    type="J"
+  />
+  <div
+    className="sc-bdnxRM cFlnuR"
+    color="ecf0f1"
+    type={0}
+  />
+  <div
+    className="sc-bdnxRM cFlnuR"
+    color="ecf0f1"
+    type={0}
+  />
+  <div
+    className="sc-bdnxRM eJWXiu"
+    color="08a9a9"
+    type="I"
+  />
+  <div
+    className="sc-bdnxRM ffkpFI"
+    color="2471a3"
+    type="J"
+  />
+  <div
+    className="sc-bdnxRM cFlnuR"
+    color="ecf0f1"
+    type={0}
+  />
+  <div
+    className="sc-bdnxRM cFlnuR"
+    color="ecf0f1"
+    type={0}
+  />
+  <div
+    className="sc-bdnxRM eJWXiu"
+    color="08a9a9"
+    type="I"
+  />
+  <div
+    className="sc-bdnxRM ffkpFI"
+    color="2471a3"
+    type="J"
+  />
+  <div
+    className="sc-bdnxRM cFlnuR"
+    color="ecf0f1"
+    type={0}
+  />
+  <div
+    className="sc-bdnxRM cFlnuR"
+    color="ecf0f1"
+    type={0}
+  />
+  <div
+    className="sc-bdnxRM eJWXiu"
+    color="08a9a9"
+    type="I"
+  />
+  <div
+    className="sc-bdnxRM ffkpFI"
+    color="2471a3"
+    type="J"
+  />
+</div>
+`;

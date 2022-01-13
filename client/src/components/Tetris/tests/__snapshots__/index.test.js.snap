@@ -1,0 +1,311 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Tetris Component Test for snapshot 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Tetris>
+    <styled.div
+      id="styledTetrisWrapper"
+      onKeyDown={[Function]}
+      role="button"
+      tabIndex="0"
+    >
+      <div
+        className="sc-dlnjwi iPWQhR"
+        id="styledTetrisWrapper"
+        onKeyDown={[Function]}
+        role="button"
+        tabIndex="0"
+      >
+        <h1
+          className="title"
+          style={
+            Object {
+              "marginBottom": "40px",
+              "marginTop": "60px",
+            }
+          }
+        >
+          RED TETRIS
+        </h1>
+        <styled.div>
+          <div
+            className="sc-hKFxyN idlCam"
+          >
+            <div
+              style={
+                Object {
+                  "color": "rgb(55, 55, 55)",
+                  "fontFamily": "'Press Start 2P', cursive",
+                  "fontSize": "12px",
+                  "margin": "5px 0",
+                }
+              }
+            >
+              @
+            </div>
+            <div
+              style={
+                Object {
+                  "background": "rgba(0,0,0,0.7)",
+                  "height": "1px",
+                  "width": "100%",
+                }
+              }
+            />
+            <styled.div>
+              <div
+                className="sc-jSFjdj djwQrH"
+              >
+                <div
+                  style={
+                    Object {
+                      "display": "flex",
+                    }
+                  }
+                >
+                  <PlayerData>
+                    <div
+                      style={
+                        Object {
+                          "alignSelf": "flex-end",
+                          "marginBottom": "6px",
+                          "marginRight": "6px",
+                          "width": "70px",
+                        }
+                      }
+                    >
+                      <styled.div>
+                        <div
+                          className="sc-jrsJWt ilCZvT"
+                        >
+                          <div
+                            style={
+                              Object {
+                                "marginBottom": "15px",
+                              }
+                            }
+                          >
+                            <div
+                              style={
+                                Object {
+                                  "marginBottom": "6px",
+                                }
+                              }
+                            >
+                              Level
+                            </div>
+                            <span
+                              style={
+                                Object {
+                                  "paddingRight": "6px",
+                                }
+                              }
+                            >
+                              0
+                            </span>
+                          </div>
+                          <div
+                            style={
+                              Object {
+                                "marginBottom": "15px",
+                              }
+                            }
+                          >
+                            <div
+                              style={
+                                Object {
+                                  "marginBottom": "6px",
+                                }
+                              }
+                            >
+                              Score
+                            </div>
+                            <span
+                              style={
+                                Object {
+                                  "paddingRight": "6px",
+                                }
+                              }
+                            >
+                              0
+                            </span>
+                          </div>
+                          <div
+                            style={
+                              Object {
+                                "marginBottom": "20px",
+                              }
+                            }
+                          >
+                            <div
+                              style={
+                                Object {
+                                  "marginBottom": "6px",
+                                }
+                              }
+                            >
+                              Lines
+                            </div>
+                            <span
+                              style={
+                                Object {
+                                  "paddingRight": "6px",
+                                }
+                              }
+                            >
+                              0
+                            </span>
+                          </div>
+                        </div>
+                      </styled.div>
+                    </div>
+                  </PlayerData>
+                  <aside>
+                    <styled.div>
+                      <div
+                        className="sc-eCApnc kQHbck"
+                      >
+                        <Stage>
+                          <styled.div
+                            cellSize={21}
+                            height={1}
+                            width={0}
+                          >
+                            <div
+                              className="sc-gtsrHT cSPJwE"
+                              height={1}
+                              width={0}
+                            />
+                          </styled.div>
+                        </Stage>
+                        <aside>
+                          <NextPieces>
+                            <div>
+                              <styled.div>
+                                <div
+                                  className="sc-gKAaRy jMDiMd"
+                                >
+                                  <styled.h1>
+                                    <h1
+                                      className="sc-pNWdM chyiGP"
+                                    >
+                                      NEXT
+                                    </h1>
+                                  </styled.h1>
+                                </div>
+                              </styled.div>
+                            </div>
+                          </NextPieces>
+                        </aside>
+                      </div>
+                    </styled.div>
+                  </aside>
+                </div>
+                <Opponents />
+                <button
+                  className="LeaveButton"
+                  id="leavePlayingGame"
+                  onClick={[Function]}
+                >
+                  LEAVE
+                </button>
+              </div>
+            </styled.div>
+          </div>
+        </styled.div>
+        <Connect(SubLeaderbord)>
+          <SubLeaderbord
+            dispatch={[Function]}
+            gameOver={false}
+          >
+            <styled.div
+              gameOver={false}
+            >
+              <div
+                className="sc-dIsUp uSCOS"
+              >
+                <styled.div>
+                  <div
+                    className="sc-bqGGPW eLAWwL"
+                  >
+                    <strong
+                      style={
+                        Object {
+                          "alignSelf": "center",
+                          "borderBottom": "1px solid #ddd",
+                          "display": "block",
+                          "padding": "5px",
+                          "width": "90%",
+                        }
+                      }
+                    >
+                      Game Over
+                    </strong>
+                    <div
+                      className="player-score-container"
+                    >
+                      <div
+                        className="player-score-rank"
+                      >
+                        Rank
+                      </div>
+                      <div
+                        className="player-score-name"
+                      >
+                        Name
+                      </div>
+                      <div
+                        className="player-score-pts"
+                      >
+                        Score
+                      </div>
+                      <div
+                        className="player-score-lines"
+                      >
+                        Lines
+                      </div>
+                      <div
+                        className="player-score-lvl"
+                      >
+                        Level
+                      </div>
+                    </div>
+                    <div
+                      className="btn-leaderboard-container"
+                    >
+                      <button
+                        className="btn-leave-leaderboard"
+                        onClick={[Function]}
+                      >
+                        Waiting Room
+                      </button>
+                      <button
+                        className="btn-leave-leaderboard"
+                        id="btn-leave-in-game"
+                        onClick={[Function]}
+                      >
+                        Leave
+                      </button>
+                    </div>
+                  </div>
+                </styled.div>
+              </div>
+            </styled.div>
+          </SubLeaderbord>
+        </Connect(SubLeaderbord)>
+      </div>
+    </styled.div>
+  </Tetris>
+</Provider>
+`;

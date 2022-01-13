@@ -1,0 +1,709 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing App Container Check Login 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <App>
+    <styled.div>
+      <div
+        className="sc-ksluID eUymye"
+      >
+        <Login>
+          <styled.div>
+            <div
+              className="sc-fnVZcZ iijFWM"
+            >
+              <h1
+                className="redTetrisTitle"
+              >
+                Red Tetris
+              </h1>
+              <styled.div>
+                <div
+                  className="sc-hBMUJo dHhYea"
+                >
+                  <input
+                    className="userInfosTextField"
+                    id="playerNameId"
+                    placeholder="User Name"
+                    type="text"
+                  />
+                </div>
+              </styled.div>
+              <styled.div>
+                <div
+                  className="sc-hBMUJo dHhYea"
+                >
+                  <input
+                    className="userInfosTextField"
+                    id="gameNameId"
+                    placeholder="Game Name"
+                    type="text"
+                  />
+                </div>
+              </styled.div>
+              <button
+                className="PlayButton"
+                onClick={[Function]}
+              >
+                PLAY
+              </button>
+            </div>
+          </styled.div>
+        </Login>
+      </div>
+    </styled.div>
+  </App>
+</Provider>
+`;
+
+exports[`Testing App Container Check in game 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <App>
+    <styled.div>
+      <div
+        className="sc-ksluID eUymye"
+      >
+        <Tetris>
+          <styled.div
+            id="styledTetrisWrapper"
+            onKeyDown={[Function]}
+            role="button"
+            tabIndex="0"
+          >
+            <div
+              className="sc-dlnjwi iPWQhR"
+              id="styledTetrisWrapper"
+              onKeyDown={[Function]}
+              role="button"
+              tabIndex="0"
+            >
+              <h1
+                className="title"
+                style={
+                  Object {
+                    "marginBottom": "40px",
+                    "marginTop": "60px",
+                  }
+                }
+              >
+                RED TETRIS
+              </h1>
+              <styled.div>
+                <div
+                  className="sc-hKFxyN idlCam"
+                >
+                  <div
+                    style={
+                      Object {
+                        "color": "rgb(55, 55, 55)",
+                        "fontFamily": "'Press Start 2P', cursive",
+                        "fontSize": "12px",
+                        "margin": "5px 0",
+                      }
+                    }
+                  >
+                    toto
+                    @
+                    test
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "background": "rgba(0,0,0,0.7)",
+                        "height": "1px",
+                        "width": "100%",
+                      }
+                    }
+                  />
+                  <styled.div>
+                    <div
+                      className="sc-jSFjdj djwQrH"
+                    >
+                      <div
+                        style={
+                          Object {
+                            "display": "flex",
+                          }
+                        }
+                      >
+                        <PlayerData>
+                          <div
+                            style={
+                              Object {
+                                "alignSelf": "flex-end",
+                                "marginBottom": "6px",
+                                "marginRight": "6px",
+                                "width": "70px",
+                              }
+                            }
+                          >
+                            <styled.div>
+                              <div
+                                className="sc-jrsJWt ilCZvT"
+                              >
+                                <div
+                                  style={
+                                    Object {
+                                      "marginBottom": "15px",
+                                    }
+                                  }
+                                >
+                                  <div
+                                    style={
+                                      Object {
+                                        "marginBottom": "6px",
+                                      }
+                                    }
+                                  >
+                                    Level
+                                  </div>
+                                  <span
+                                    style={
+                                      Object {
+                                        "paddingRight": "6px",
+                                      }
+                                    }
+                                  >
+                                    0
+                                  </span>
+                                </div>
+                                <div
+                                  style={
+                                    Object {
+                                      "marginBottom": "15px",
+                                    }
+                                  }
+                                >
+                                  <div
+                                    style={
+                                      Object {
+                                        "marginBottom": "6px",
+                                      }
+                                    }
+                                  >
+                                    Score
+                                  </div>
+                                  <span
+                                    style={
+                                      Object {
+                                        "paddingRight": "6px",
+                                      }
+                                    }
+                                  >
+                                    0
+                                  </span>
+                                </div>
+                                <div
+                                  style={
+                                    Object {
+                                      "marginBottom": "20px",
+                                    }
+                                  }
+                                >
+                                  <div
+                                    style={
+                                      Object {
+                                        "marginBottom": "6px",
+                                      }
+                                    }
+                                  >
+                                    Lines
+                                  </div>
+                                  <span
+                                    style={
+                                      Object {
+                                        "paddingRight": "6px",
+                                      }
+                                    }
+                                  >
+                                    0
+                                  </span>
+                                </div>
+                              </div>
+                            </styled.div>
+                          </div>
+                        </PlayerData>
+                        <aside>
+                          <styled.div>
+                            <div
+                              className="sc-eCApnc kQHbck"
+                            >
+                              <Stage>
+                                <styled.div
+                                  cellSize={21}
+                                  height={1}
+                                  width={0}
+                                >
+                                  <div
+                                    className="sc-gtsrHT cSPJwE"
+                                    height={1}
+                                    width={0}
+                                  />
+                                </styled.div>
+                              </Stage>
+                              <aside>
+                                <NextPieces>
+                                  <div>
+                                    <styled.div>
+                                      <div
+                                        className="sc-gKAaRy jMDiMd"
+                                      >
+                                        <styled.h1>
+                                          <h1
+                                            className="sc-pNWdM chyiGP"
+                                          >
+                                            NEXT
+                                          </h1>
+                                        </styled.h1>
+                                      </div>
+                                    </styled.div>
+                                  </div>
+                                </NextPieces>
+                              </aside>
+                            </div>
+                          </styled.div>
+                        </aside>
+                      </div>
+                      <Opponents />
+                      <button
+                        className="LeaveButton"
+                        id="leavePlayingGame"
+                        onClick={[Function]}
+                      >
+                        LEAVE
+                      </button>
+                    </div>
+                  </styled.div>
+                </div>
+              </styled.div>
+              <Connect(SubLeaderbord)>
+                <SubLeaderbord
+                  dispatch={[Function]}
+                  gameOver={false}
+                >
+                  <styled.div
+                    gameOver={false}
+                  >
+                    <div
+                      className="sc-dIsUp uSCOS"
+                    >
+                      <styled.div>
+                        <div
+                          className="sc-bqGGPW eLAWwL"
+                        >
+                          <strong
+                            style={
+                              Object {
+                                "alignSelf": "center",
+                                "borderBottom": "1px solid #ddd",
+                                "display": "block",
+                                "padding": "5px",
+                                "width": "90%",
+                              }
+                            }
+                          >
+                            Game Over
+                          </strong>
+                          <div
+                            className="player-score-container"
+                          >
+                            <div
+                              className="player-score-rank"
+                            >
+                              Rank
+                            </div>
+                            <div
+                              className="player-score-name"
+                            >
+                              Name
+                            </div>
+                            <div
+                              className="player-score-pts"
+                            >
+                              Score
+                            </div>
+                            <div
+                              className="player-score-lines"
+                            >
+                              Lines
+                            </div>
+                            <div
+                              className="player-score-lvl"
+                            >
+                              Level
+                            </div>
+                          </div>
+                          <div
+                            className="player-score-container"
+                            key="0"
+                            style={
+                              Object {
+                                "fontWeight": "normal",
+                              }
+                            }
+                          >
+                            <div
+                              className="player-score-rank"
+                            />
+                            <div
+                              className="player-score-name"
+                            />
+                            <div
+                              className="player-score-pts"
+                            />
+                            <div
+                              className="player-score-lines"
+                            />
+                            <div
+                              className="player-score-lvl"
+                            />
+                          </div>
+                          <div
+                            className="btn-leaderboard-container"
+                          >
+                            <button
+                              className="btn-leave-leaderboard"
+                              onClick={[Function]}
+                            >
+                              Waiting Room
+                            </button>
+                            <button
+                              className="btn-leave-leaderboard"
+                              id="btn-leave-in-game"
+                              onClick={[Function]}
+                            >
+                              Leave
+                            </button>
+                          </div>
+                        </div>
+                      </styled.div>
+                    </div>
+                  </styled.div>
+                </SubLeaderbord>
+              </Connect(SubLeaderbord)>
+            </div>
+          </styled.div>
+        </Tetris>
+      </div>
+    </styled.div>
+  </App>
+</Provider>
+`;
+
+exports[`Testing App Container Check waiting room 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <App>
+    <styled.div>
+      <div
+        className="sc-ksluID eUymye"
+      >
+        <WaitingRoom>
+          <styled.div>
+            <div
+              className="sc-fFSPTT iltGLs"
+            >
+              <styled.div>
+                <div
+                  className="sc-iemWCZ iOZdrW"
+                >
+                  <h2
+                    className="waitingRoomTitle"
+                  >
+                    TEST
+                  </h2>
+                  <button
+                    className="settingsBtn"
+                    id="showSettingPopup"
+                  >
+                    <img
+                      alt="settings"
+                      className="settingsImg"
+                      onClick={[Function]}
+                      src="./settingBtn.png"
+                    />
+                  </button>
+                </div>
+              </styled.div>
+              <ul
+                className="waitingPlayerList"
+              >
+                <styled.li
+                  color="#f53643"
+                  key="0"
+                >
+                  <li
+                    className="sc-dIvrsQ cHitDp"
+                    color="#f53643"
+                  >
+                    toto (me)
+                  </li>
+                </styled.li>
+              </ul>
+              <styled.div>
+                <div
+                  className="sc-bkbkJK gBqTsE"
+                >
+                  <button
+                    className="LeaveButton"
+                    onClick={[Function]}
+                  >
+                    LEAVE
+                  </button>
+                  <button
+                    className="PlayButton"
+                    onClick={[Function]}
+                  >
+                    PLAY
+                  </button>
+                </div>
+              </styled.div>
+              <GameSettings>
+                <styled.div
+                  id="gameSettingsPopup"
+                >
+                  <div
+                    className="sc-hHEiqL eAUpup"
+                    id="gameSettingsPopup"
+                  >
+                    <styled.div>
+                      <div
+                        className="sc-dlMDgC gYcacr"
+                      >
+                        <div
+                          className="settings-header"
+                        >
+                          <span
+                            className="CloseButton"
+                            id="closebtn"
+                            onClick={[Function]}
+                          >
+                            ×
+                          </span>
+                          <h2>
+                            SETTINGS
+                          </h2>
+                        </div>
+                        <ul
+                          className="options-list"
+                        >
+                          <li
+                            className="options-elem"
+                            key="1"
+                          >
+                            DIFFICULTY:
+                            <RadioOptions
+                              settingId={1}
+                            >
+                              <div
+                                className="radio-group"
+                              >
+                                <input
+                                  checked={false}
+                                  id="opt-1"
+                                  name="selector-1"
+                                  onChange={[Function]}
+                                  type="radio"
+                                />
+                                <label
+                                  htmlFor="opt-1"
+                                >
+                                  EASY
+                                </label>
+                                <input
+                                  checked={true}
+                                  id="opt-2"
+                                  name="selector-1"
+                                  onChange={[Function]}
+                                  type="radio"
+                                />
+                                <label
+                                  htmlFor="opt-2"
+                                >
+                                  MEDIUM
+                                </label>
+                                <input
+                                  checked={false}
+                                  id="opt-3"
+                                  name="selector-1"
+                                  onChange={[Function]}
+                                  type="radio"
+                                />
+                                <label
+                                  htmlFor="opt-3"
+                                >
+                                  HARD
+                                </label>
+                                <input
+                                  checked={false}
+                                  id="opt-4"
+                                  name="selector-1"
+                                  onChange={[Function]}
+                                  type="radio"
+                                />
+                                <label
+                                  htmlFor="opt-4"
+                                >
+                                  LEVEL
+                                </label>
+                              </div>
+                            </RadioOptions>
+                          </li>
+                          <li
+                            className="options-elem"
+                            key="2"
+                          >
+                            NUMBER OF NEXT TETROMINOS:
+                            <RadioOptions
+                              settingId={2}
+                            >
+                              <div
+                                className="radio-group"
+                              >
+                                <input
+                                  checked={false}
+                                  id="opt-5"
+                                  name="selector-2"
+                                  onChange={[Function]}
+                                  type="radio"
+                                />
+                                <label
+                                  htmlFor="opt-5"
+                                >
+                                  1
+                                </label>
+                                <input
+                                  checked={false}
+                                  id="opt-6"
+                                  name="selector-2"
+                                  onChange={[Function]}
+                                  type="radio"
+                                />
+                                <label
+                                  htmlFor="opt-6"
+                                >
+                                  2
+                                </label>
+                                <input
+                                  checked={true}
+                                  id="opt-7"
+                                  name="selector-2"
+                                  onChange={[Function]}
+                                  type="radio"
+                                />
+                                <label
+                                  htmlFor="opt-7"
+                                >
+                                  3
+                                </label>
+                                <input
+                                  checked={false}
+                                  id="opt-8"
+                                  name="selector-2"
+                                  onChange={[Function]}
+                                  type="radio"
+                                />
+                                <label
+                                  htmlFor="opt-8"
+                                >
+                                  4
+                                </label>
+                                <input
+                                  checked={false}
+                                  id="opt-9"
+                                  name="selector-2"
+                                  onChange={[Function]}
+                                  type="radio"
+                                />
+                                <label
+                                  htmlFor="opt-9"
+                                >
+                                  5
+                                </label>
+                              </div>
+                            </RadioOptions>
+                          </li>
+                          <li
+                            className="options-elem"
+                            key="3"
+                          >
+                            DELETE OWN INDESTRUTIBLE LINES:
+                            <RadioOptions
+                              settingId={3}
+                            >
+                              <div
+                                className="radio-group"
+                              >
+                                <input
+                                  checked={true}
+                                  id="opt-10"
+                                  name="selector-3"
+                                  onChange={[Function]}
+                                  type="radio"
+                                />
+                                <label
+                                  htmlFor="opt-10"
+                                >
+                                  FALSE
+                                </label>
+                                <input
+                                  checked={false}
+                                  id="opt-11"
+                                  name="selector-3"
+                                  onChange={[Function]}
+                                  type="radio"
+                                />
+                                <label
+                                  htmlFor="opt-11"
+                                >
+                                  TRUE
+                                </label>
+                              </div>
+                            </RadioOptions>
+                          </li>
+                        </ul>
+                      </div>
+                    </styled.div>
+                  </div>
+                </styled.div>
+              </GameSettings>
+            </div>
+          </styled.div>
+        </WaitingRoom>
+      </div>
+    </styled.div>
+  </App>
+</Provider>
+`;

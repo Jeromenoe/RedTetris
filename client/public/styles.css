@@ -1,0 +1,270 @@
+@font-face {
+    font-family: "Press Start 2P";
+    src: url('./fonts/PressStart2P-Regular.ttf');
+}
+
+html {
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.error-login {
+    color:rgb(245, 54, 67);
+    font-size: 20px;
+    margin: 10px;
+    font-style: italic;
+    /* margin-left: 10px */
+}
+
+.PlayButton {
+    color: white;
+    background-color:rgb(245, 54, 67);
+    border-radius: 8px;
+    width: 150px;
+    height: 45px;
+    border: none;
+    font-size: 25px;
+    font-weight: 900;
+    margin: 10px;
+    
+}
+
+.LeaveButton {
+    color: rgb(245, 54, 67);
+    background-color:white;
+    border: 2px solid rgb(245, 54, 67);
+    border-radius: 8px;
+    width: 150px;
+    height: 45px;
+    font-size: 25px;
+    font-weight: 900;
+    margin: 10px;
+}
+
+.WaitingAdminButton {
+    color: white;
+    background-color:rgb(245, 54, 67);
+    border-radius: 8px;
+    min-width: 150px;
+    max-width: 250px;
+    height: 45px;
+    border: none;
+    font-size: 15px;
+    font-weight: 900;
+    margin: 10px;
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+
+.CloseButton {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.CloseButton:hover,
+.CloseButton:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+button {
+    transition-duration: 0.1s;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.settingsBtn {
+    padding: 0;
+    border: 0;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.settingsImg {
+    width: 20px;
+    height: 20px;
+    background-blend-mode: multiply;
+    background-color: rgb(240, 240, 240);
+}
+
+.settingsBtn:hover {
+    box-shadow: none;
+}
+
+button:hover {
+    box-shadow: 0 0 8px rgba(255, 0, 0, 0.747);
+}
+
+.userInfosTextField {
+    height: 30px;
+    width: 350px;
+    padding: 8px;
+    padding-left: 15px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    color:rgb(245, 54, 67);
+}
+
+.userInfosTextField::placeholder {
+    font-size: 20px;
+    color: darkgray;
+}
+
+.redTetrisTitle {
+    font-family: "Press Start 2P";
+    font-size: 40px;
+    color:rgb(245, 54, 67);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    margin: 20px;
+}
+
+.waitingRoomTitle {
+    color: rgb(92, 92, 92);
+    margin: 10px;
+    padding-top: 4px; 
+}
+
+.waitingPlayerList {
+    margin: 20px;
+    padding: 0;
+}
+
+.title {
+	font-family: 'Press Start 2P', cursive;
+	color: rgb(231, 76, 60);
+	text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+}
+
+
+#leavePlayingGame {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+
+.player-score-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 12px;
+	width: 100%;
+	/* font-size: 12px; */
+}
+
+.player-score-rank {
+	width: 20%;
+}
+
+.player-score-name {
+	width: 20%;
+}
+
+.player-score-pts {
+	width: 20%;
+}
+
+.player-score-lines {
+	width: 20%;
+}
+
+.player-score-lvl {
+	width: 20%;
+}
+
+
+.btn-leave-leaderboard {
+	cursor: pointer;
+	color:rgb(200, 54, 67);
+	font-weight: bold;
+	padding: .5em;
+	border-radius: 3px;
+	border: 0;
+	min-width: 110px;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.btn-leave-leaderboard:hover {
+	background-color: rgb(220, 220, 220);
+}
+
+.btn-leaderboard-container {
+	margin-top: 1em;
+	display: flex;
+	justify-content: center;
+}
+
+li {
+    list-style: none;
+}
+
+input[type=radio] {
+    position: absolute;
+    visibility: hidden;
+    display: none;
+}
+
+label {
+    color: lightgray;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+
+input[type=radio]:checked + label {
+    color: rgb(200, 54, 67);
+    background: lightgray;
+}
+
+label + input[type=radio] + label {
+    border-left: solid 3px lightgray;
+}
+
+.radio-group {
+    border: solid 3px lightgray;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.gameSetting {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+}
+
+.options-list {
+    padding: 0;
+    margin: 30px;
+}
+
+.options-elem {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settings-header {
+    
+}

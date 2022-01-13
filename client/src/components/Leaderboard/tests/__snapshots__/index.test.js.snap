@@ -1,0 +1,245 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Leaderboard Component Check store isOver = false 1`] = `
+<div
+  className="sc-bdnxRM dZqNsG"
+>
+  <div
+    className="sc-gtsrHT RaGih"
+  >
+    <strong
+      style={
+        Object {
+          "alignSelf": "center",
+          "borderBottom": "1px solid #ddd",
+          "display": "block",
+          "padding": "5px",
+          "width": "90%",
+        }
+      }
+    >
+      Game Over
+    </strong>
+    <div
+      className="player-score-container"
+    >
+      <div
+        className="player-score-rank"
+      >
+        Rank
+      </div>
+      <div
+        className="player-score-name"
+      >
+        Name
+      </div>
+      <div
+        className="player-score-pts"
+      >
+        Score
+      </div>
+      <div
+        className="player-score-lines"
+      >
+        Lines
+      </div>
+      <div
+        className="player-score-lvl"
+      >
+        Level
+      </div>
+    </div>
+    <div
+      className="player-score-container"
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    >
+      <div
+        className="player-score-rank"
+      >
+        1
+      </div>
+      <div
+        className="player-score-name"
+      >
+        Jojo
+         (me)
+      </div>
+      <div
+        className="player-score-pts"
+      >
+        1000
+      </div>
+      <div
+        className="player-score-lines"
+      >
+        10
+      </div>
+      <div
+        className="player-score-lvl"
+      >
+        4
+      </div>
+    </div>
+    <div
+      className="btn-leaderboard-container"
+    >
+      <button
+        className="btn-leave-leaderboard"
+        onClick={[Function]}
+      >
+        Waiting Room
+      </button>
+      <button
+        className="btn-leave-leaderboard"
+        id="btn-leave-in-game"
+        onClick={[Function]}
+      >
+        Leave
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Testing Leaderboard Component Check store isOver = true 1`] = `
+<div
+  className="sc-bdnxRM kdmkhX"
+>
+  <div
+    className="sc-gtsrHT RaGih"
+  >
+    <strong
+      style={
+        Object {
+          "alignSelf": "center",
+          "borderBottom": "1px solid #ddd",
+          "display": "block",
+          "padding": "5px",
+          "width": "90%",
+        }
+      }
+    >
+      Game Over
+    </strong>
+    <div
+      className="player-score-container"
+    >
+      <div
+        className="player-score-rank"
+      >
+        Rank
+      </div>
+      <div
+        className="player-score-name"
+      >
+        Name
+      </div>
+      <div
+        className="player-score-pts"
+      >
+        Score
+      </div>
+      <div
+        className="player-score-lines"
+      >
+        Lines
+      </div>
+      <div
+        className="player-score-lvl"
+      >
+        Level
+      </div>
+    </div>
+    <div
+      className="player-score-container"
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    >
+      <div
+        className="player-score-rank"
+      >
+        1
+      </div>
+      <div
+        className="player-score-name"
+      >
+        Jojo
+         (me)
+      </div>
+      <div
+        className="player-score-pts"
+      >
+        1000
+      </div>
+      <div
+        className="player-score-lines"
+      >
+        10
+      </div>
+      <div
+        className="player-score-lvl"
+      >
+        4
+      </div>
+    </div>
+    <div
+      className="player-score-container"
+      style={
+        Object {
+          "fontWeight": "normal",
+        }
+      }
+    >
+      <div
+        className="player-score-rank"
+      >
+        2
+      </div>
+      <div
+        className="player-score-name"
+      >
+        Joji
+      </div>
+      <div
+        className="player-score-pts"
+      >
+        1000
+      </div>
+      <div
+        className="player-score-lines"
+      >
+        10
+      </div>
+      <div
+        className="player-score-lvl"
+      >
+        4
+      </div>
+    </div>
+    <div
+      className="btn-leaderboard-container"
+    >
+      <button
+        className="btn-leave-leaderboard"
+        onClick={[Function]}
+      >
+        Waiting Room
+      </button>
+      <button
+        className="btn-leave-leaderboard"
+        id="btn-leave-in-game"
+        onClick={[Function]}
+      >
+        Leave
+      </button>
+    </div>
+  </div>
+</div>
+`;

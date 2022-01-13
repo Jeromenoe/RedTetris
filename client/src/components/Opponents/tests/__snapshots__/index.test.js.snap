@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Opponents Component Opponent spectrum height = 0 1`] = `
+Array [
+  <div
+    style={
+      Object {
+        "background": "rgba(0,0,0,0.7)",
+        "height": "100%",
+        "width": "1px",
+      }
+    }
+  />,
+  <aside>
+    <div
+      className="sc-gtsrHT gQOXp"
+    >
+      <div
+        className="sc-dlnjwi bBrhSr"
+      >
+        <div
+          className="sc-bdnxRM kwkGEb"
+          height={0}
+          width={0}
+        />
+         
+        <br />
+         
+        toto
+      </div>
+    </div>
+  </aside>,
+]
+`;
+
+exports[`Testing Opponents Component Single Opponent 1`] = `
+Array [
+  <div
+    style={
+      Object {
+        "background": "rgba(0,0,0,0.7)",
+        "height": "100%",
+        "width": "1px",
+      }
+    }
+  />,
+  <aside>
+    <div
+      className="sc-gtsrHT gQOXp"
+    >
+      <div
+        className="sc-dlnjwi bBrhSr"
+      >
+        <div
+          className="sc-bdnxRM eHxUYu"
+          height={1}
+          width={4}
+        >
+          <div
+            className="sc-hKFxyN ccLPrQ"
+            color="ecf0f1"
+            type="0"
+          />
+          <div
+            className="sc-hKFxyN ccLPrQ"
+            color="ecf0f1"
+            type="0"
+          />
+          <div
+            className="sc-hKFxyN ecIMNg"
+            color="148f77"
+            type="spectrum"
+          />
+          <div
+            className="sc-hKFxyN ecIMNg"
+            color="148f77"
+            type="spectrum"
+          />
+        </div>
+         
+        <br />
+         
+        toto
+      </div>
+    </div>
+  </aside>,
+]
+`;
+
+exports[`Testing Opponents Component multiple opponents 1`] = `
+Array [
+  <div
+    style={
+      Object {
+        "background": "rgba(0,0,0,0.7)",
+        "height": "100%",
+        "width": "1px",
+      }
+    }
+  />,
+  <aside>
+    <div
+      className="sc-gtsrHT gQOXp"
+    >
+      <div
+        className="sc-dlnjwi bBrhSr"
+      >
+        <div
+          className="sc-bdnxRM eHxUYu"
+          height={1}
+          width={4}
+        >
+          <div
+            className="sc-hKFxyN ccLPrQ"
+            color="ecf0f1"
+            type="0"
+          />
+          <div
+            className="sc-hKFxyN ccLPrQ"
+            color="ecf0f1"
+            type="0"
+          />
+          <div
+            className="sc-hKFxyN ecIMNg"
+            color="148f77"
+            type="spectrum"
+          />
+          <div
+            className="sc-hKFxyN ecIMNg"
+            color="148f77"
+            type="spectrum"
+          />
+        </div>
+         
+        <br />
+         
+        toto
+      </div>
+      <div
+        className="sc-dlnjwi bBrhSr"
+      >
+        <div
+          className="sc-bdnxRM eHxUYu"
+          height={1}
+          width={4}
+        >
+          <div
+            className="sc-hKFxyN ccLPrQ"
+            color="ecf0f1"
+            type="0"
+          />
+          <div
+            className="sc-hKFxyN ccLPrQ"
+            color="ecf0f1"
+            type="0"
+          />
+          <div
+            className="sc-hKFxyN ecIMNg"
+            color="148f77"
+            type="spectrum"
+          />
+          <div
+            className="sc-hKFxyN ecIMNg"
+            color="148f77"
+            type="spectrum"
+          />
+        </div>
+         
+        <br />
+         
+        titi
+      </div>
+    </div>
+  </aside>,
+]
+`;
